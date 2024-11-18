@@ -3,6 +3,9 @@ import json
 from enum import Enum
 
 class ASHRAE_VERSION(Enum):
+    v2009 = '2009'
+    v2013 = '2013'
+    v2017 = '2017'
     v2021 = '2021'
 
 def remove_bom(text: str)->str:
